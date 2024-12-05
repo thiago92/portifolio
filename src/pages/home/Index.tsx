@@ -3,12 +3,14 @@ import { faInstagram, faFacebook, faLinkedin, faWhatsapp, faTelegram } from "@fo
 import logo from "../../assets/logo/logo.png"
 import { Typewriter } from "react-simple-typewriter"
 import words from "../../data/typewriter/words"
+import Particle from "../../components/animate-background/Index"
 
 export default function Home() {
     return (
         <>
-            <section className="flex justify-between bg-gray-100 p-4 h-screen">
-                <div className="flex flex-col flex-1 bg-black h-full mx-2 p-4">
+            <Particle />
+            <section className="relative flex justify-betwee p-4 h-screen z-10">
+                <div className="flex flex-col flex-1 mx-2 p-4">
                     <div className="flex-1">
                         <img className="w-48 rounded-full border-4 border-yellow-600 hover:rotate-45 transition duration-300" src={logo} alt="logo" />
                     </div>
@@ -19,7 +21,7 @@ export default function Home() {
                     </div>
                     <div className="flex-1"></div>
                 </div>
-                <div className="flex flex-col flex-1 bg-black h-full mx-2 justify-center items-center p-4">
+                <div className="flex flex-col flex-1 h-full mx-2 justify-center items-center p-4">
                     <h2 className="text-center text-gray-300">
                         <span className="text-yellow-600">Thiago</span> Silva Souza
                     </h2>
@@ -37,8 +39,8 @@ export default function Home() {
                         </span>
                     </p>
                 </div>
-                <div className="flex-1 bg-black h-full mx-2 p-4">
-                    <div className="flex flex-col flex-1 bg-black h-full mx-2 p-4">
+                <div className="flex-1 h-full mx-2 p-4">
+                    <div className="flex flex-col flex-1 h-full mx-2 p-4">
                         <div className="flex-1">
                             <div className="flex justify-top items-end flex-col cursor-pointer group">
                                 <div className="border-b-4 w-8 group-hover:w-16 transition-all duration-900"></div>
