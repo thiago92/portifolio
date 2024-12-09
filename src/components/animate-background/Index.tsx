@@ -42,7 +42,7 @@ export default function Particle() {
                 color: {
                   value: "#000",
                 },
-                image: "url('./bg.png')",
+                image: "url('./logo.png')",
                 position: "95% 50%",
                 repeat: "no-repeat",
                 size: "45%",
