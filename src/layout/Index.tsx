@@ -6,15 +6,15 @@ export default function Main() {
     return (
         <div className="relative">
             <div className="flex flex-col h-screen">
-                <header className="flex-none z-20">
+                <header className="lg:flex-none z-20">
                     <Header />
                 </header>
 
-                <main className="flex-grow overflow-auto z-10">
+                <main className="lg:flex-grow lg:overflow-auto z-10">
                     <Outlet />
                 </main>
 
-                <footer className="flex-none z-10">
+                <footer className="lg:flex-none z-10">
                     <Footer />
                 </footer>
             </div>

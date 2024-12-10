@@ -36,7 +36,7 @@ export default function Menu() {
             >
                 <div className="flex p-8">
                     <div className="flex-1">
-                        <img className="w-44 rounded-full border-4 border-yellow-600 hover:rotate-45 transition duration-300" src={logo} alt="logo" />
+                        <img className="w-32 lg:w-44 rounded-full border-4 border-yellow-600 hover:rotate-45 transition duration-300" src={logo} alt="logo" />
                     </div>
                     <div className="flex-1 flex justify-end items-start" onClick={toggleMenu}>
                         <FontAwesomeIcon
