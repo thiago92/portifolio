@@ -1,6 +1,14 @@
 {
     "welcome": "Bem-vindo ao meu portfólio!",
     "description": "Sou um desenvolvedor apaixonado.",
-    "Im": "Eu sou um"
+    "Im": "Eu sou um",
+    "home": "Home",
+    "about": "Sobre mim",
+    "portifolio": "Portifólio",
+    "contact": "Contato",
+    "HOME": "HOME",
+    "PORTFOLIO": "PORTIFÓLIO",
+    "ABOUT": "SOBRE MIM",
+    "CONTACT": "CONTATO"
 }
   

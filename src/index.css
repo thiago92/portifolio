@@ -18,3 +18,16 @@ p {
     font-size: 2rem !important;
     font-weight: 500 !important;
 }
+
+li {
+  font-size: 3rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.text-bg {
+  font-size: 10rem;
+  font-family: "Black Ops One", system-ui;
+  margin-top: -20rem;
+}

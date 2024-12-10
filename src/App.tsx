@@ -1,12 +1,12 @@
 import './App.css'
-import Home from './pages/home/Index'
 import './i18.ts'
+import AppRouter from './routes.tsx'
 
 function App() {
 
   return (
     <>
-      <Home />
+      <AppRouter />
     </>
   )
 }

@@ -23,7 +23,7 @@ export default function Particle() {
 
   return (
     <>
-      <section className="bg-black">
+      <section>
         {init && (
           <Particles
             id="tsparticles"
