@@ -6,15 +6,15 @@ export default function Main() {
     return (
         <div className="relative bg-black">
             <div className="flex flex-col h-screen">
-                <header className="lg:flex-none z-20">
+                <header className="z-20">
                     <Header />
                 </header>
 
-                <main className="lg:flex-grow lg:overflow-auto z-10">
+                <main className=" flex-1 z-10">
                     <Outlet />
                 </main>
 
-                <footer className="lg:flex-none z-10">
+                <footer className="z-10">
                     <Footer />
                 </footer>
             </div>
