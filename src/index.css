@@ -59,7 +59,25 @@ li {
 }
 
 .text-bg {
-  font-size: 10rem;
+  font-size: 3rem;
   font-family: "Black Ops One", system-ui;
-  margin-top: -20rem;
+  margin-top: -15rem;
+}
+
+@media (min-width: 1024px) {
+  .text-bg {
+    font-size: 10rem;
+    font-family: "Black Ops One", system-ui;
+    margin-top: -20rem;
+  }
+}
+
+.text-footer {
+  font-size: 0.8rem !important;
+}
+
+@media (min-width: 1024px) {
+  .text-footer {
+    font-size: 1.5rem !important;
+  }
 }

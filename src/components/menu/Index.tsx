@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../../public/logo-bg.png";
 import { useTranslation } from "react-i18next";
+import MenuData from "../../data/menu/menu.data";
+import { MenuInterface } from "../../interface/menu.interface";
+import { Link } from "react-router-dom";
 
 export default function Menu() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -46,35 +49,20 @@ export default function Menu() {
                         />
                     </div>
                 </div>
-                <ul className="flex flex-col w-full items-center justify-around space-y-8 z-20">
-                    <li
-                        className="hover:text-yellow-500 cursor-pointer z-20"
-                        onMouseEnter={() => setHoveredText("HOME")}
-                        onMouseLeave={() => setHoveredText("")}
-                    >
-                        {t("home")}
-                    </li>
-                    <li
-                        className="hover:text-yellow-500 cursor-pointer z-20"
-                        onMouseEnter={() => setHoveredText("ABOUT")}
-                        onMouseLeave={() => setHoveredText("")}
-                    >
-                        {t("about")}
-                    </li>
-                    <li
-                        className="hover:text-yellow-500 cursor-pointer z-20"
-                        onMouseEnter={() => setHoveredText("PORTFOLIO")}
-                        onMouseLeave={() => setHoveredText("")}
-                    >
-                        {t("portifolio")}
-                    </li>
-                    <li
-                        className="hover:text-yellow-500 cursor-pointer z-20"
-                        onMouseEnter={() => setHoveredText("CONTACT")}
-                        onMouseLeave={() => setHoveredText("")}
-                    >
-                        {t("contact")}
-                    </li>
+                <ul className="flex flex-col w-full items-center justify-around z-20">
+                    {MenuData.map((data: MenuInterface, index: number) => 
+                        <li
+                            key={index}
+                            className="hover:text-yellow-500 cursor-pointer z-20"
+                            onMouseEnter={() => setHoveredText(data.label)}
+                            onMouseLeave={() => setHoveredText("")}
+                            onClick={toggleMenu}
+                            >
+                                <Link to={data.to}>
+                                    {t(data.translation)}
+                                </Link>
+                        </li>
+                    )}
                 </ul>
                 <div
                     className="w-full text-center text-bg transition-all duration-1000 ease-out z-10"
