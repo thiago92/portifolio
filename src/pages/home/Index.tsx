@@ -47,7 +47,7 @@ export default function Home() {
                         />
                     </a>
                 </div>
-                <div className="flex flex-col flex-1 mx-2 justify-center items-center p-4 order-1 lg:order-2">
+                <div className="flex flex-col flex-1 justify-center items-center order-1 lg:order-2">
                     <h2 className="text-center text-gray-300">
                         <span className="text-yellow-600">Thiago</span> Silva Souza
                     </h2>
