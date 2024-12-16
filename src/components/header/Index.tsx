@@ -7,7 +7,7 @@ export default function Header() {
             <section className="relative flex justify-between z-10">
                 <div className="flex w-full mx-2 p-8">
                     <div className="flex-1">
-                        <img className="w-24 lg:w-40 rounded-full border-4 border-yellow-600 hover:rotate-45 transition duration-300" src={logo} alt="logo" />
+                        <img className="w-24 lg:w-32 rounded-full border-4 border-yellow-600 hover:rotate-45 transition duration-300" src={logo} alt="logo" />
                     </div>
                     <div className="flex-1 flex justify-end items-start">
                         <Menu />

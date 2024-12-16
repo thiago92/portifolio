@@ -3,12 +3,14 @@
     "description": "Sou um desenvolvedor apaixonado.",
     "Im": "Eu sou um",
     "home": "Home",
-    "about": "Sobre mim",
+    "about": "Sobre",
     "portifolio": "Portifólio",
     "contact": "Contato",
     "HOME": "HOME",
     "PORTFOLIO": "PORTIFÓLIO",
     "ABOUT": "SOBRE MIM",
-    "CONTACT": "CONTATO"
+    "CONTACT": "CONTATO",
+    "me": "mim",
+    "getKnow": "Me conheça melhor"
 }
   
