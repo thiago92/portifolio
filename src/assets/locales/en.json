@@ -16,7 +16,15 @@
     "Parana": "Parana",
     "Brazil": "Brazil",
     "paragraph1": "I am a web developer passionate about technology, with experience in front-end, back-end and databases, working in the complete cycle of application development. I master tools such as Angular, React, Python, C#, and WordPress, and I constantly seek to improve my skills to deliver efficient and high-quality solutions that meet the needs of customers and users.",
-    "develop": "image develop"
+    "develop": "image develop",
+    "text-footer": "All rights reserved",
+    "services" : "Main Services",
+    "webdeseign": "Web Designing",
+    "site": "Website Creation",
+    "frontandback": "Front-End & Back-End",
+    "text-services-1": "Desenvolvo interfaces elegantes, intuitivas e adaptáveis a qualquer dispositivo, focadas em usabilidade, performance e impacto visual para alcançar resultados reais.",
+    "text-services-2": "Desenvolvo sites elegantes, funcionais e adaptáveis, focados em usabilidade, performance e impacto visual para entregar resultados reais.",
+    "text-services-3": "Crio códigos eficientes e bem estruturados para interfaces modernas e funcionais no front-end, além de soluções robustas e performáticas no back-end, garantindo aplicações completas e de alta qualidade."
 
 }
   

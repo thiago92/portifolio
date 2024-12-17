@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import imgIm from "../../../public/img-im-2.jpeg"
 import DownlaodButtonCV from "@/components/button-download-cv/Index";
+import Services from "@/components/services/Index";
 
 export default function About() {
     const { t } = useTranslation()
@@ -29,6 +30,7 @@ export default function About() {
                             <img src={imgIm} alt={t("develop")} className="w-96 rounded-lg"/>
                         </div>
                     </div>
+                    <Services />
                 </div>
             </section>
         </>
