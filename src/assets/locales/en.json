@@ -27,6 +27,14 @@
     "text-services-3": "I create efficient and well-structured codes for modern and functional interfaces on the front-end, as well as robust and high-performance solutions on the back-end.",
     "download-tooltip-button-pt": "Download the Portuguese version of the CV",
     "download-tooltip-button-en": "Download the English version of the CV",
-    "skill": "My Skills"
+    "skill": "My Skills",
+    "myWorks": "Some of my",
+    "works": "works",
+    "designMobileEffect": "Design With Effects",
+    "textoMobile": "This project, powered by Next.js, combines a modern, clean, and responsive design with a rich and engaging visual experience. The minimalist layout ensures intuitive and fluid navigation, while carefully implemented effects take user interaction to the next level. Smooth transitions, dynamic animations, and subtle micro-interactions make the interface not only functional, but also aesthetically pleasing. This project is not only a showcase of design, but also a demonstration of how modern technology can be used to create captivating and memorable web experiences.",
+    "viewProject": "View Project",
+    "tooltipButtonPortifolio": "Access the project",
+    "webDesign": "Web Design",
+    "textDesign": "This e-commerce project, built with a focus on design and usability, offers an exceptional online shopping experience. With an elegant and fully responsive layout, the website adapts perfectly to any device, providing fluid and pleasant navigation. Dynamic visual effects and interactive animations make the shopping process engaging and intuitive, highlighting products in an attractive way. This e-commerce not only facilitates the customer journey, but also creates a memorable digital environment that reflects modernity and innovation."
 }
   

@@ -8,11 +8,13 @@ export default function CustomButton({ text, type = 'button', href = '#', toolti
 
     const buttonElement = (
         <a 
-            href={href} 
+            href={href}
+            target="_blank" 
+            rel="noopener noreferrer"  
             download={type === 'download'} 
             className="bg-yellow-600 font-bold text-gray-950 p-2 rounded-md hover:bg-yellow-700 transition"
         >
-            {text}
+            {t(text)}
         </a>
     );
 
