@@ -9,11 +9,11 @@ export default function Designs() {
     return (
         <>
             {WorksData.map((item, index) => 
-                <div key={index} className="flex mb-16">
-                    <div className="flex-1 flex items-center justify-end">
-                        <img src={item.img} className="w-10/12" alt="design mobile" />
+                <div key={index} className="flex lg:flex-row flex-col lg:mb-16 pl-4 pr-4 lg:pl-0 lg:pr-0">
+                    <div className="flex-1 flex items-center lg:justify-end justify-center mb-4 lg:mb-0">
+                        <img src={item.img} className="lg:w-10/12 w-full" alt="design mobile" />
                     </div>
-                    <div className="flex-1 flex items-end justify-center -ml-8 pb-8">
+                    <div className="flex-1 flex items-end justify-center lg:-ml-8 ml-0 pb-8">
                         <div className="bg-stone-900 p-8 rounded-sm">
                             <h4 className="text-yellow-600 mb-6">
                                 {t(item.title)}

@@ -15,7 +15,7 @@ export default function Portifolio() {
                             {t("portifolio")}
                         </h2>
                         <p className="capitalize">
-                            {t("myWorks")} <span className="text-yellow-600">{t("works")}</span>
+                            {t("myWorks")} <span className="text-yellow-600">{t("projects")}</span>
                         </p>
                     </div>
                     <Designs />
