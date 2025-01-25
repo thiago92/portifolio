@@ -57,6 +57,11 @@ p {
     font-weight: 500 !important;
 }
 
+label {
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+}
+
 .p-portifolio {
   font-size: 1rem !important;
   font-weight: 400 !important;
@@ -65,6 +70,10 @@ p {
 button {
   font-size: .75rem !important;
   font-weight: 700 !important;
+}
+
+.contact {
+  font-size: 1rem !important;
 }
 
 @media (min-width: 1024px) {
@@ -88,6 +97,11 @@ button {
     font-weight: 500 !important;
   }
 
+  label {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+  }
+
   .p-portifolio {
     font-size: 1rem !important;
     font-weight: 400 !important;
@@ -96,6 +110,10 @@ button {
   button {
     font-size: .75rem !important;
     font-weight: 700 !important;
+  }
+
+  .contact {
+    font-size: 1.5rem !important;
   }
 }
 
