@@ -20,11 +20,11 @@ export const dataProgress = [
         label: "React"
     },
     {
-        value: 50,
+        value: 40,
         label: "C#/.NET"
     },
     {
-        value: 50,
+        value: 35,
         label: "Python"
     },
     {
