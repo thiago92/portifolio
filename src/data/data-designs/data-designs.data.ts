@@ -24,7 +24,7 @@ export const WorksData = [
         text: "textResponsive",
         img: img3,
         textButton: "viewProject",
-        href: "https://buzzvel-ebon.vercel.app02",
+        href: "https://buzzvel-ebon.vercel.app",
         tooltip: "tooltipButtonPortifolio"
     }
 ]
