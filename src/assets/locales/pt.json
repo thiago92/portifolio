@@ -4,10 +4,10 @@
     "Im": "Eu sou um",
     "home": "Home",
     "about": "Sobre",
-    "portifolio": "Portifólio",
+    "portfolio": "Portfolio",
     "contact": "Contato",
     "HOME": "HOME",
-    "PORTFOLIO": "PORTIFÓLIO",
+    "PORTFOLIO": "PORTFOLIO",
     "ABOUT": "SOBRE MIM",
     "CONTACT": "CONTATO",
     "me": "mim",
@@ -33,7 +33,7 @@
     "designMobileEffect": "Design com efeitos",
     "textoMobile": "Este e-commerce foi projetado para oferecer uma experiência de usuário excepcional, combinando um design bonito e limpo com interações visuais envolventes. A interface minimalista garante uma navegação clara e direta, enquanto os efeitos dinâmicos e animações fluidas tornam o processo de compra mais cativante e agradável. Cada detalhe foi cuidadosamente pensado para proporcionar uma jornada de usuário intuitiva e imersiva, destacando os produtos de forma elegante e moderna. Este projeto é a fusão perfeita entre funcionalidade e estética, elevando o padrão de experiência em compras online.",
     "viewProject": "Veja o Projeto",
-    "tooltipButtonPortifolio": "Acesse o Projeto",
+    "tooltipButtonPortfolio": "Acesse o Projeto",
     "webDesign": "Web Design",
     "textDesign": "Este projeto de e-commerce, construído com foco em design e usabilidade, oferece uma experiência de compra online excepcional. Com um layout elegante e totalmente responsivo, o site se adapta perfeitamente a qualquer dispositivo, proporcionando uma navegação fluida e agradável. Os efeitos visuais dinâmicos e as animações interativas tornam o processo de compra envolvente e intuitivo, destacando produtos de maneira atraente. Este e-commerce não apenas facilita a jornada do cliente, mas também cria um ambiente digital memorável que reflete modernidade e inovação.",
     "responsivoDesign": "Design Responsivos",
@@ -53,6 +53,7 @@
     "name": "Nome",
     "location": "Localização",
     "phone": "Telefone",
-    "email": "E-mail"
+    "email": "E-mail",
+    "VideoEditor!": "Editor de Vídeo"
 }
   

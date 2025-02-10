@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next"
 import Designs from "@/components/designs/Index"
 import CustomCarousel from "@/components/custom-carousel/Index"
 
-export default function Portifolio() {
+export default function Portfolio() {
 
     const { t } = useTranslation()
     
@@ -12,7 +12,7 @@ export default function Portifolio() {
                 <div className="container">
                     <div className="w-full text-center text-gray-100 mb-8">
                         <h2>
-                            {t("portifolio")}
+                            {t("portfolio")}
                         </h2>
                         <p className="capitalize">
                             {t("myWorks")} <span className="text-yellow-600">{t("projects")}</span>

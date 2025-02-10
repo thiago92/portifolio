@@ -1,5 +1,5 @@
-<h1 align="center">Portifólio - Thiago</h1>
-<p align="center"><i>Repositório para versionamento e documentação do projeto Portifólio - Thiago.</i></p>
+<h1 align="center">Portfolio - Thiago</h1>
+<p align="center"><i>Repositório para versionamento e documentação do projeto Portfolio - Thiago.</i></p>
 
 <p align="center" display="inline-block">
   <img src="https://img.shields.io/badge/HTML-orange?logo=html5&logoColor=white&labelColor=orange&color=orange" alt="HTML 5"/>
@@ -26,7 +26,7 @@ Este é o meu portfólio pessoal, desenvolvido com React, Vite e TypeScript. O o
 ### Funcionalidades
 
 - **Informações**: Apresentação de informações pessoais e profissionais.
-- **Portifólio**: Lista de projetos realizados com links para mais detalhes.
+- **Portfolio**: Lista de projetos realizados com links para mais detalhes.
 - **Contato**: Seção de contato para facilitar a comunicação.
 - **Navegação Eficiente**: Implementação de rotas dinâmicas e estáticas com o React Router Dom para uma navegação fluida.
 
@@ -129,9 +129,9 @@ A página About apresenta uma introdução sobre o usuário, destacando sua expe
 
 A página Contact é voltada para o contato do usuário, oferecendo uma seção com informações e um formulário (presumivelmente contido no componente Information) para que os visitantes possam enviar mensagens. O título da página é dinâmico, com traduções gerenciadas pelo useTranslation do React i18next, permitindo um conteúdo multilíngue. O componente Information provavelmente exibe detalhes de contato, como e-mail, telefone e links para redes sociais. A estrutura é centrada e adaptável, com uma boa apresentação em dispositivos de diferentes tamanhos.
 
-### Portifolio
+### Portfolio
 
-A página Portifolio é dedicada à exibição dos projetos e trabalhos realizados, e está estruturada da seguinte maneira:
+A página Portfolio é dedicada à exibição dos projetos e trabalhos realizados, e está estruturada da seguinte maneira:
 
 - Cabeçalho: O título da seção é exibido em um formato grande e centralizado, com o nome do portfólio, traduzido através do i18n para se adaptar ao idioma escolhido pelo usuário. Abaixo do título, uma breve descrição é fornecida, destacando a natureza dos trabalhos (meus projetos).
 

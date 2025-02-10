@@ -39,7 +39,7 @@ export default function Home() {
                     <p className="text-gray-300 mt-8">
                         {t('Im')} <span className="text-yellow-600">
                             <Typewriter
-                                words={words}
+                                words={words.map(word => t(word))}
                                 loop={0}
                                 cursor
                                 cursorStyle="|"

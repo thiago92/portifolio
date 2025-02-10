@@ -10,8 +10,8 @@ const MenuData = [
         "translation": "ABOUT"
     },
     {
-        "label": "portifolio",
-        "to": "/portifolio",
+        "label": "portfolio",
+        "to": "/portfolio",
         "translation": "PORTFOLIO" 
     },
     {

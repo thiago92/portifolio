@@ -9,7 +9,7 @@ export const WorksData = [
         img: img4,
         textButton: "viewProject",
         href: "https://thiago92.github.io/sitemadu/",
-        tooltip: "tooltipButtonPortifolio"
+        tooltip: "tooltipButtonPortfolio"
     },
     {
         title: "webDesign",
@@ -17,7 +17,7 @@ export const WorksData = [
         img: img2,
         textButton: "viewProject",
         href: "https://thiago92.github.io/stermax/",
-        tooltip: "tooltipButtonPortifolio"
+        tooltip: "tooltipButtonPortfolio"
     },
     {
         title: "responsivoDesign",
@@ -25,6 +25,6 @@ export const WorksData = [
         img: img3,
         textButton: "viewProject",
         href: "https://buzzvel-ebon.vercel.app",
-        tooltip: "tooltipButtonPortifolio"
+        tooltip: "tooltipButtonPortfolio"
     }
 ]

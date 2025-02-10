@@ -18,7 +18,7 @@ export default function Designs() {
                             <h4 className="text-yellow-600 mb-6">
                                 {t(item.title)}
                             </h4>
-                            <p className="p-portifolio mb-6">
+                            <p className="p-portfolio mb-6">
                                 {t(item.text)}
                             </p>
                             <CustomButton text={item.textButton} href={item.href} tooltip={item.tooltip} />
