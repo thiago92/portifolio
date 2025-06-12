@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import brasil from '../../../public/bandeira-brasil.webp';
-import US from '../../../public/bandeira-estados-unidos.webp'
+import brasil from '@/assets/img/commom/bandeira-brasil.webp';
+import US from '@/assets/img/commom/bandeira-estados-unidos.webp'
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();

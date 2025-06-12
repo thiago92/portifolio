@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import fundo from "../../../public/img-contact-1.jpg"
+import fundo from "@/assets/img/commom/img-contact-1.jpg"
 import { informationContact, informationSocial } from "@/data/information/information.data"
 import { useTranslation } from "react-i18next"
 

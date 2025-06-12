@@ -7,7 +7,7 @@ import About from "./pages/abaout/Index"
 
 export default function AppRouter() {
     return <>
-        <HashRouter>
+        {/* <HashRouter> */}
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Main />}>
@@ -18,6 +18,6 @@ export default function AppRouter() {
                     </Route>
                 </Routes>
             </BrowserRouter>
-        </HashRouter>
+        {/* </HashRouter> */}
     </>
   }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import logo from "../../../public/logo-bg.png";
+import logo from "@/assets/img/logos/logo-bg.png";
 import { useTranslation } from "react-i18next";
 import MenuData from "../../data/menu/menu.data";
 import { MenuInterface } from "../../interface/menu.interface";

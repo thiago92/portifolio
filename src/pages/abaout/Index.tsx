@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import imgIm from "../../../public/img-im-2.jpeg"
+import imgIm from "@/assets/img/commom/img-im-1.jpeg"
 import CustomButton from "@/components/custom-button/Index";
 import Services from "@/components/services/Index";
 import CustomProgress from "@/components/custom-progress/Index";

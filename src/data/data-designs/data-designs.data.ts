@@ -1,8 +1,8 @@
-import img2 from "../../../public/portfolio-second.jpg"
-import img3 from "../../../public/portfolio-third.jpg"
-import img4 from "../../../public/portfolio-fourth.jpg"
-import img5 from "../../../public/portfolio-fifth.png"
-import img6 from "../../../public/portfolio-sixth.png"
+import img2 from "@/assets/img/portfolio/portfolio-second.jpg"
+import img3 from "@/assets/img/portfolio/portfolio-third.jpg"
+import img4 from "@/assets/img/portfolio/portfolio-fourth.jpg"
+import img5 from "@/assets/img/portfolio/portfolio-fifth.png"
+import img6 from "@/assets/img/portfolio/portfolio-sixth.png"
 
 export const WorksData = [
     {
