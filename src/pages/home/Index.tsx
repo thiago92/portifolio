@@ -31,7 +31,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col flex-1 justify-center items-center order-1 lg:order-2">
                     <h2 className="text-center text-gray-300">
-                        <span className="text-yellow-600">Thiago</span> Silva Souza
+                        <span className="text-yellow-600">Thiago</span> Silva Souza Deploy automático funcionou
                     </h2>
                     <p className="text-gray-300 text-center mt-8">
                         {t('welcome')}
