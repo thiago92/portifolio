@@ -4,10 +4,20 @@ import words from "../../data/typewriter/words"
 import Particle from "../../components/animate-background/Index"
 import { useTranslation } from "react-i18next"
 import { socialData, contactData } from "@/data/social/social.data"
+import { useUsers } from "@/hooks/useUsers"
+import { useEffect } from "react"
 
 export default function Home() {
 
     const { t } = useTranslation()
+    const { data: users, refetch } = useUsers({enabled: false});
+
+     // sempre que users mudar, loga no console
+    useEffect(() => {
+        if (users) {
+            console.log("Usuários da API:", users);
+        }
+    }, [users]);
 
     return (
         <>
@@ -33,6 +43,9 @@ export default function Home() {
                     <h2 className="text-center text-gray-300">
                         <span className="text-yellow-600">Thiago</span> Silva Souza
                     </h2>
+                    <button onClick={() => refetch()}>
+                        Chamar API
+                    </button>
                     <p className="text-gray-300 text-center mt-8">
                         {t('welcome')}
                     </p>
