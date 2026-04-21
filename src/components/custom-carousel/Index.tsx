@@ -7,43 +7,48 @@ import {
   } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
 import { useTranslation } from "react-i18next"
-import { CarouselData } from "@/data/data-carousel/data-carousel.data"
+import { useProjetosCarousel } from "@/hooks/useProjetosCarousel"
 
 export default function CustomCarousel() {
 
     const { t } = useTranslation()
-    
+    const { data, loading, error } = useProjetosCarousel()
+
     return(
         <>
             <div className="container mb-8">
                 <div className="mb-4 text-center">
                     <h3>
                         <span className="text-yellow-600">{t("freelance")}</span> {t("workIvedone")}
-                    </h3> 
+                    </h3>
                 </div>
-                <div className="bg-white flex justify-center items-center">
-                    <Carousel
-                        plugins={[
-                            Autoplay({
-                              delay: 2000,
-                            }),
-                        ]}
-                    >
-                        <CarouselContent>
-                            {CarouselData.map((item, index) => 
-                                <CarouselItem key={index} className="lg:basis-1/3">
-                                    <a href={item.url} className="cursor-pointer" target="_blank" rel="noopener noreferrer">
-                                        <div className="hover:scale-105 transition-all flex justify-center items-center">
-                                            <img className="rounded-sm lg:w-96 w-80" src={item.img} alt={t(item.alt)} />
-                                        </div>
-                                    </a>
-                                </CarouselItem>
-                            )}
-                        </CarouselContent>
-                        <CarouselPrevious />
-                        <CarouselNext />
-                    </Carousel>
-                </div>
+                {loading && <p className="text-center mt-4 text-gray-400">...</p>}
+                {error && <p className="text-center mt-4 text-red-500">{t("loadError")}</p>}
+                {!loading && !error && (
+                    <div className="bg-white flex justify-center items-center">
+                        <Carousel
+                            plugins={[
+                                Autoplay({
+                                  delay: 2000,
+                                }),
+                            ]}
+                        >
+                            <CarouselContent>
+                                {data.map((item) =>
+                                    <CarouselItem key={item.id} className="lg:basis-1/3">
+                                        <a href={item.url} className="cursor-pointer" target="_blank" rel="noopener noreferrer">
+                                            <div className="hover:scale-105 transition-all flex justify-center items-center">
+                                                <img className="rounded-sm lg:w-96 w-80" src={item.imgPath} alt={t(item.altSlug)} />
+                                            </div>
+                                        </a>
+                                    </CarouselItem>
+                                )}
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
+                    </div>
+                )}
             </div>
         </>
     )
