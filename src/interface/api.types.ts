@@ -44,3 +44,18 @@ export interface ContatoDto {
     telefone: string
     email: string
 }
+
+export interface ChatMessageDto {
+    role: "user" | "assistant"
+    content: string
+}
+
+export interface ChatRequestDto {
+    message: string
+    language?: string
+    history?: ChatMessageDto[]
+}
+
+export interface ChatResponseDto {
+    answer: string
+}

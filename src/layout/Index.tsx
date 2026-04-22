@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Header from '../components/header/Index';
 import Footer from '../components/footer/Index';
+import ChatWidget from '../components/chat-widget/Index';
 
 export default function Main() {
     return (
@@ -18,6 +19,7 @@ export default function Main() {
                     <Footer />
                 </footer>
             </div>
+            <ChatWidget />
         </div>
     );
 }
